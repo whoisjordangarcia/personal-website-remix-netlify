@@ -29,13 +29,13 @@ const IntroSection = () => (
               repeat={Infinity}
             />
           </h1>
-          <h1 className="text-4xl font-bold tracking-tight text-rose-400 sm:text-5xl md:text-7xl">
+          <h1 className="text-4xl font-bold tracking-tight text-rose-400 sm:text-5xl md:mt-5 md:text-7xl">
             I'm Jordan Garcia
           </h1>
-          <p className="mt-3 text-base text-slate-200 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-            I'm a engineering manager at{" "}
+          <p className="mt-4 text-base text-slate-200 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-10 md:text-xl lg:mx-0">
+            I'm a engineering manager for the IAM team{" "}
             <ExternalLink href="https://www.invitae.com">@invitae</ExternalLink>{" "}
-            and likes to build things for the web on my spare time.
+            and likes to build things for web/3 on my spare time.
           </p>
 
           <a href="#about-me">

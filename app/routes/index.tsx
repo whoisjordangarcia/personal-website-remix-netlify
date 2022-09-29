@@ -5,12 +5,14 @@ import IntroSection, {
 import WhereIveWorked from "../components/WhereIveWorked/WhereIveWorked";
 import { links as SubHeadingStyles } from "../components/shared/SubHeading/SubHeading";
 import { links as LinkStyles } from "../components/shared/ExternalLink/ExternalLink";
+import { links as JobTileStyles } from "../components/shared/JobTile/JobTile";
 import Footer from "../components/Footer/Footer";
 import Contribution from "../components/Contribution/Contribution";
 import Navigation, {
   links as NavigationStyles,
 } from "../components/Navigation/Navigation";
 import ContactMe from "../components/Contact/Contact";
+import Channels from "../components/Channels/Channels";
 
 export function links() {
   return [
@@ -19,6 +21,7 @@ export function links() {
     ...SubHeadingStyles(),
     ...LinkStyles(),
     ...NavigationStyles(),
+    ...JobTileStyles(),
   ];
 }
 
@@ -30,6 +33,7 @@ const Index = () => (
       <AboutMe />
       <WhereIveWorked />
       <Contribution />
+      <Channels />
       <ContactMe />
     </main>
     <Footer />

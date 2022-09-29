@@ -7,7 +7,7 @@ interface Props {
 }
 
 const SubHeading = ({ subHeading }: Props) => (
-  <h3 className="subHeading text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-5xl md:tracking-tight">
+  <h3 className="subHeading text-2xl font-bold tracking-tight text-white sm:text-2xl md:text-2xl md:tracking-tight">
     {subHeading}
   </h3>
 );

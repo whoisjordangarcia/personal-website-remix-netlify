@@ -8,7 +8,7 @@ const Contribution = () => (
         <SubHeading subHeading="Contribution" />
         <ExternalLink href="https://github.com/whoisjordangarcia">
           <img
-            className="max-w-full p-10"
+            className="mt-10 max-w-full"
             src="https://ghchart.rshah.org/fb7171/whoisjordangarcia"
             alt="Jordan Garcia's Github chart"
             loading="lazy"
