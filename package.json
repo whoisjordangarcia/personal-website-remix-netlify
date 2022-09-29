@@ -36,9 +36,12 @@
     "@remix-run/serve": "^1.6.8",
     "@remix-run/server-runtime": "^1.6.8",
     "bcryptjs": "^2.4.3",
+    "install": "^0.13.0",
     "isbot": "^3.5.1",
+    "npm": "^8.18.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-type-animation": "^2.1.0",
     "tiny-invariant": "^1.2.0"
   },
   "devDependencies": {
