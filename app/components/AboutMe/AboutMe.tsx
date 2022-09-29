@@ -9,11 +9,11 @@ const AboutMe = () => (
       <div className="sm:text-center lg:text-left">
         <SubHeading subHeading="About Me" />
         <p className="mt-3 text-base text-slate-200 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-          Hello! I'm Jordan, a engineer manager based in Miami, FL. I enjoy
+          Hello! I'm Jordan, a engineer manager based in Miami, Florida. I enjoy
           building teams and create clever solutions that are both scalable and
           performant while providing engaging, pixel-perfect user experiences.
-          Here are a few technologies I've been working with recently:
-        </p>
+          <p className="mt-3 text-base text-slate-200 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+        <p>Here are a few technologies I've been working with recently:</p>
 
         <ul className="mt-3 text-base text-slate-200 sm:text-lg md:text-xl">
           <li>Typescript</li>
