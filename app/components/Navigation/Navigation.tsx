@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./styles.css";
 
 export const links = () => [{ rel: "stylesheet", href: styles }];
@@ -45,7 +46,7 @@ const Navigation = () => (
       >
         <ul className="mt-4 flex flex-col rounded-lg p-4  md:mt-0 md:flex-row md:space-x-8 md:border-0 md:text-sm md:font-medium">
           {navigationLink.map((link) => (
-            <li className="link-item">
+            <li className="link-item" key={link.href}>
               <a
                 href={link.href}
                 className="nav-link block rounded bg-blue-700 py-2 pr-4 pl-3 text-white md:bg-transparent md:p-0 md:text-white"

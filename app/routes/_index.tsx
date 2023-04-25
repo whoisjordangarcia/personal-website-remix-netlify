@@ -1,3 +1,4 @@
+import type { V2_MetaFunction } from "@remix-run/node";
 import AboutMe, { links as AboutMeLinks } from "../components/AboutMe/AboutMe";
 import IntroSection, {
   links as IntroSectionLinks,
@@ -13,6 +14,11 @@ import Navigation, {
 } from "../components/Navigation/Navigation";
 import ContactMe from "../components/Contact/Contact";
 import Channels from "../components/Channels/Channels";
+import React from "react";
+
+
+
+export const meta: V2_MetaFunction = () => [{ title: "Remix Notes" }];
 
 export function links() {
   return [
@@ -25,9 +31,10 @@ export function links() {
   ];
 }
 
+
 const Index = () => (
   <>
-    <Navigation />
+   <Navigation />
     <main>
       <IntroSection />
       <AboutMe />
@@ -39,5 +46,6 @@ const Index = () => (
     <Footer />
   </>
 );
+
 
 export default Index;

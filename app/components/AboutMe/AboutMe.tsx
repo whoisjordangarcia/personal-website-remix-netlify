@@ -1,3 +1,4 @@
+import React from "react";
 import SubHeading from "../shared/SubHeading/SubHeading";
 import styles from "./styles.css";
 

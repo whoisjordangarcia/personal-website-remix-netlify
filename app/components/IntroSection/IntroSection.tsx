@@ -1,6 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import ExternalLink from "../shared/ExternalLink/ExternalLink";
 import styles from "./styles.css";
+import React from "react";
 
 export const links = () => [{ rel: "stylesheet", href: styles }];
 
